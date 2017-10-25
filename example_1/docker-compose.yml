@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  go-app:
+    build: .
+    volumes:
+      - "/usr/share/zoneinfo:/usr/share/zoneinfo"
+
